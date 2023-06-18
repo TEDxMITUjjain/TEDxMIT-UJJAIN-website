@@ -1,0 +1,37 @@
+.Speaker {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  padding: 5rem;
+}
+.SpeakerCard {
+  box-shadow: 0 0 10px white;
+}
+.Heading {
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+  .Speaker {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    padding: 4rem;
+  }
+  .SpeakerCard {
+    box-shadow: 0 0 10px white;
+  }
+  .Heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+  }
+  #card1 {
+    position: relative;
+    padding: 0;
+  }
+}

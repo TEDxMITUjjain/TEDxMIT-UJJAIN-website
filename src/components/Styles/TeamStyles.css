@@ -1,0 +1,181 @@
+/* Apply custom scrollbar styles to the element with the ID 'scrollDiv' */
+#scrollDiv::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+#scrollDiv::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+#scrollDiv::-webkit-scrollbar-thumb {
+  background-color: red; /* Color of the scrollbar thumb */
+}
+body {
+  /* cursor: url("/cursor-3-32.png"), auto; */
+  scrollbar-color: red yellow;
+}
+* {
+  padding: 0;
+  margin: 0;
+  /* cursor: url('./components/cursor-3-32.png'), auto; */
+  /* cursor: crosshair;
+    color: red; */
+}
+html {
+  font-size: 16px;
+}
+.blackback {
+  font-family: Helvetica, Sans-Serif;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-top: 7rem;
+}
+.currentspeakers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 20.813rem;
+  height: 26.518rem;
+  background-color: black;
+  margin: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-radius: 0rem 0rem 1.563rem 1.563rem;
+  overflow: hidden;
+  /* cursor: url('./components/cursor-3-32.png'), auto; */
+}
+.currentspeakers img {
+  display: block;
+  /* margin: auto; */
+  margin: 0rem;
+  margin-bottom: 7rem;
+
+  border-radius: 0.6rem;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 30px rgba(221, 215, 215, 0.5);
+}
+.info {
+  color: white;
+  text-align: center;
+  width: 20.813rem;
+  height: 6.7rem;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+  border-bottom-left-radius: 1.8rem;
+  border-bottom-right-radius: 1.8rem;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translateY(100%);
+}
+.info p {
+  font-size: 1.438rem;
+}
+
+.info h1 {
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  /* overflow: hidden;  */
+  text-overflow: ellipsis;
+}
+
+.team-contact-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.313rem;
+}
+
+.contactlink {
+  display: flex;
+  /* display: inline-block; */
+  /* margin: 0 10px; */
+  margin: 0 0.625rem;
+  transition: transform 0.1s ease;
+}
+
+.currentspeakers:hover .imag {
+  transform: scale(0.65);
+  border: 0.325rem solid red;
+  /* border-left-color: white;
+    border-right-color: white; */
+  margin-top: 0 rem;
+
+  box-shadow: 0 0 50px red;
+}
+
+.currentspeakers:hover .info {
+  transform: translateY(-30%);
+  opacity: 1;
+}
+
+.contactlink:hover {
+  /* width: 27px; */
+  transform: scale(1.15);
+  /* color: white; */
+  filter: invert(100%) grayscale(100%);
+}
+
+/* .contactimg
+  {
+    margin-top: 5px;
+  } */
+
+/* heading part */
+
+.team-heading {
+  color: red;
+  width: 100%;
+  text-align: left;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 3.5rem;
+}
+
+.team-heading-red {
+  color: white;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar-logo {
+  position: absolute;
+  left: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 0.6rem;
+}
+
+.navbar-buttons {
+  margin-right: 3rem;
+}
+
+.navbar-button {
+  margin-left: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-button:hover {
+  color: gray;
+}

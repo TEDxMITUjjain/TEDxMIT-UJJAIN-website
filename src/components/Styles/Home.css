@@ -1,0 +1,158 @@
+.hero {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: -47.5rem;
+
+  z-index: -4;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  object-fit: cover;
+  right: 0rem;
+  z-index: -5;
+}
+.hero-text p {
+  font-size: 4rem;
+  font-family: serif;
+  margin: 0 0 0 0;
+  display: inline-block;
+  width: 33rem;
+  height: 9rem;
+  border: 5px solid #ffffff;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
+.hero-text p:hover {
+  font-size: 5rem;
+  font-family: serif;
+  margin: 0 0 0 0;
+  display: inline-block;
+  width: 40rem;
+  height: 11rem;
+  border: 6px solid red;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: 0.5s ease-in-out;
+}
+.hero-text h1 {
+  margin: 0 0 1rem 0;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  z-index: -4;
+}
+
+.backgroundimgblur {
+  filter: blur(5px);
+}
+.spanred {
+  color: #eb0028;
+}
+.countdiv {
+  color: #ffffff;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .hero {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0rem;
+    z-index: -4;
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -5;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    width: 5rem;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    z-index: -4;
+  }
+  .hero-text p {
+    font-size: 3rem;
+    font-family: serif;
+    margin: 0 0 0 0;
+    display: inline-block;
+    width: 16rem;
+    height: 7rem;
+    border: 5px solid #ffffff;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.5s ease-in-out;
+  }
+  .hero-text p:hover {
+    font-size: 4rem;
+    font-family: serif;
+    margin: 0 0 0 0;
+    display: inline-block;
+    width: 22rem;
+    height: 19rem;
+    border: 5px solid red;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 0.5s ease-in-out;
+  }
+  .hero-text h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    padding: 10px 20px;
+    /* margin-bottom: 2rem; */
+  }
+
+  .backgroundimgblur {
+    filter: blur(5px);
+  }
+  .spanred {
+    color: #eb0028;
+  }
+  #countdown p {
+    font-size: 4rem;
+  }
+  .countdiv {
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .countdiv p {
+    font-size: 2rem;
+    padding-top: 5%;
+  }
+}

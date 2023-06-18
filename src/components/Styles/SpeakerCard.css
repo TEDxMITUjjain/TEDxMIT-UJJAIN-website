@@ -1,0 +1,120 @@
+.SpeakerCard {
+  background-color: rgb(208, 208, 208);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+}
+.SpeakerCard:hover {
+  box-shadow: 0 0 30px red;
+}
+
+.SpeakerCard-img {
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 20rem;
+  font-size: medium;
+}
+
+.SpeakerCard-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Speacker-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.SpeakerCard-title {
+  padding: 2rem;
+  position: relative;
+}
+.SpeakerCard-description {
+  font-weight: 600;
+  width: 18rem;
+  position: relative;
+}
+.SpeakerCard-link {
+  color: red;
+  margin: 1rem;
+  font-size: larger;
+  text-decoration: none;
+  position: relative;
+  bottom: 5px;
+}
+
+@media screen and (max-width: 550px) {
+  .SpeakerCard {
+    background-color: white;
+    width: 15rem;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+  }
+
+  .SpeakerCard-img {
+    border-radius: 1rem 1rem 0 0;
+    width: 15rem;
+    height: auto;
+    box-shadow: 0 0 20px inset;
+  }
+
+  .SpeakerCard-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+  }
+
+  .SpeakerCard-text h2 {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .Speakercard-title {
+    position: relative;
+    padding-bottom: 2rem;
+    width: 15rem;
+  }
+  .Speakercard-description {
+    font-weight: 600;
+    width: 3rem;
+    position: relative;
+  }
+  .Speakercard-link {
+    color: red;
+    margin: 1rem;
+    font-weight: 1000;
+    text-decoration: none;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .Speacker-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .SpeakerCard-description {
+    width: 10rem;
+  }
+}

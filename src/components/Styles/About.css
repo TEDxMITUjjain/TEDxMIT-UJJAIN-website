@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.About {
+  margin-top: 60rem;
+  box-shadow: 0 0 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: 100dvh;
+  background-color: red;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.Card {
+  position: relative;
+}
+#card1 {
+  top: 2rem;
+}
+#card2 {
+  top: 6rem;
+}
+
+@media screen and (max-width: 840px) {
+  .About {
+    margin-top: 50rem;
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: fit-content;
+    background-color: red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  #card1 {
+    top: 0;
+  }
+  #card2 {
+    top: 0;
+  }
+}
