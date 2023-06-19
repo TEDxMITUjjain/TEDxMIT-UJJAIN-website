@@ -11,7 +11,7 @@ function Speakers() {
             id="card1"
             img={modi}
             title="Narendra Modi"
-            description="Mere bhai or behno!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+            description="Mere bhai or behno"
             link="https://twitter.com/narendramodi"
           />
         </div>
