@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   margin: none;
+  margin-top: 2%;
 }
 .SpeakerCard:hover {
   box-shadow: 0 0 30px red;
@@ -21,14 +22,14 @@
 }
 
 .SpeakerCard-text {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   justify-content: center;
   align-items: center;
   padding: 2rem;
 }
 
-.Speacker-details {
+.Speaker-details {
   display: flex;
   flex-direction: column;
   justify-content: center;

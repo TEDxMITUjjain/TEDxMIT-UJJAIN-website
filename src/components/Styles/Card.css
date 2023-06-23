@@ -1,6 +1,6 @@
 .Card {
   background-color: white;
-  width: 20rem;
+  width: 30rem;
   height: fit-content;
   border-radius: 1rem;
   box-shadow: 0 0 20px;
@@ -13,15 +13,18 @@
 
 .card-img {
   border-radius: 1rem 1rem 0 0;
-  width: 20rem;
+  width: 30rem;
   font-size: larger;
 }
 .card-title {
   position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .card-description {
   font-weight: 600;
-  width: 18rem;
+  width: 28rem;
+  height: 8rem;
   position: relative;
 }
 .card-link {
@@ -30,5 +33,48 @@
   font-weight: 1000;
   text-decoration: none;
   position: relative;
-  bottom: 5px;
+  bottom: 2rem;
+}
+
+
+@media screen and (max-width: 550px)
+{
+  .Card {
+    background-color: white;
+    width: 20rem;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+  }
+  
+  .card-img {
+    border-radius: 1rem 1rem 0 0;
+    width: 20rem;
+    font-size: larger;
+  }
+  .card-title {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card-description {
+    font-weight: 600;
+    width: 18rem;
+    height: 8rem;
+    position: relative;
+  }
+  .card-link {
+    color: red;
+    margin: 1rem;
+    font-weight: 1000;
+    text-decoration: none;
+    position: relative;
+    bottom: 2rem;
+  }
+  
 }

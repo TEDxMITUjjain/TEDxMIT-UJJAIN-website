@@ -1,11 +1,18 @@
 .Speaker {
+  /* border: 2px solid orange; */
   width: 100%;
   height: fit-content;
   background-color: black;
   padding: 5rem;
+  display: flex;
+  flex-direction: column;
 }
-.SpeakerCard {
-  box-shadow: 0 0 10px white;
+.SpeakerCardd {
+  /* box-shadow: 0 0 10px white; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
 }
 .Heading {
   color: white;
@@ -20,9 +27,15 @@
     height: fit-content;
     background-color: black;
     padding: 4rem;
+    display: flex;
+    
+    /* border: 2px solid blue; */
   }
-  .SpeakerCard {
-    box-shadow: 0 0 10px white;
+  .SpeakerCardd {
+    /* box-shadow: 0 0 10px white; */
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
   }
   .Heading {
     color: white;

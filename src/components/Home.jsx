@@ -1,7 +1,7 @@
 import React from "react";
 import "./Styles/Home.css";
 import Navbar from "./Navbar.jsx";
-import home from "../assets/backgroundimg1.png";
+import home from "../assets/background2.jpg";
 import About from "./About.jsx";
 import Partners from "./Partners.jsx";
 import Speakers from "./Speakers.jsx";
@@ -9,7 +9,7 @@ import Countdown from "./Utility/Countdown.jsx";
 
 function Home() {
   return (
-    <>
+    <div className="root2">
       <Navbar />
       <div className="hero" id="hero">
         <img className="backgroundimgblur" alt="hero-img" src={home} />
@@ -25,7 +25,7 @@ function Home() {
       <About />
       <Speakers />
       <Partners />
-    </>
+    </div>
   );
 }
 

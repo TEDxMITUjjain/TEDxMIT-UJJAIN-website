@@ -13,6 +13,7 @@
 body {
   /* cursor: url("/cursor-3-32.png"), auto; */
   scrollbar-color: red yellow;
+  background-color: black;
 }
 * {
   padding: 0;
