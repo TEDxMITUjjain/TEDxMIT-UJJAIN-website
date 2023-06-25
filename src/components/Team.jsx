@@ -40,7 +40,7 @@ function Team() {
         </h1>
         {speakers.map(CreateSpeakerCard)}
 
-        <h1 className="team-heading">
+        {/* <h1 className="team-heading">
           <span>ANCHORING</span>
         </h1>
         <TeamInfo
@@ -54,7 +54,7 @@ function Team() {
           imgURL={speakers[2].imgURL}
           name={speakers[2].name}
           profession={speakers[2].profession}
-        />
+        /> */}
 
         <h1 className="team-heading">
           <span>TECHNICAL</span> <span className="team-heading-red">TEAM</span>

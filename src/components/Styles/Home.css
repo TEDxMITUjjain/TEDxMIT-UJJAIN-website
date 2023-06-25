@@ -68,7 +68,7 @@
 .backgroundimgblur {
   background-color: black;
   opacity: 5px;
-  filter: blur(3px);
+  filter: blur(0px);
 }
 .spanred {
   color: #eb0028;

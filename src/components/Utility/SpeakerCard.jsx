@@ -1,9 +1,25 @@
 import "../Styles/SpeakerCard.css";
 
+{
+  function checkScroll() {
+    var ele=document.getElementById("cardl");
+    var scrollPosition = window.scrollY;
+    var elementsToShow = document.querySelectorAll('.fly-in-left, .fly-in-right');
+  
+    elementsToShow.forEach(function (ele) {
+      if (scrollPosition + window.innerHeight > element.offsetTop) {
+        document.getElementById("cardl").classList.add('animate');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', checkScroll);
+}
+
 function SpeakerCard(props) {
   return (
     <>
-      <div className="SpeakerCard" id={props.id}>
+      <div className="SpeakerCard fly-in-right" id="cardl {props.id}">
         <img
           className="SpeakerCard-img"
           alt="SpeakerCard-poster"

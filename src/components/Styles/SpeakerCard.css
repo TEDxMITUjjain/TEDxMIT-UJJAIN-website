@@ -11,6 +11,24 @@
   margin: none;
   margin-top: 2%;
 }
+
+/* .fly-in-left,
+.fly-in-right {
+  opacity: 0;
+  position: relative;
+  transition: opacity 0.5s;
+}
+
+.fly-in-right {
+  right: -100px;
+}
+
+.animate {
+  opacity: 1;
+  left: 0;
+  right: 0;
+} */
+
 .SpeakerCard:hover {
   box-shadow: 0 0 30px red;
 }
@@ -19,6 +37,7 @@
   border-radius: 1rem 1rem 1rem 1rem;
   width: 20rem;
   font-size: medium;
+  margin-left: 2px;
 }
 
 .SpeakerCard-text {
