@@ -3,7 +3,7 @@ import "../Styles/SpeakerCard2.css";
 function SpeakerCard2(props) {
   return (
     <>
-      <div className="SpeakerCard2" id={props.id}>
+      <div className="SpeakerCard2 rainbow" id={props.id}>
         
         <div className="SpeakerCard-text">
           <h2 className="SpeakerCard-title">{props.title}</h2>

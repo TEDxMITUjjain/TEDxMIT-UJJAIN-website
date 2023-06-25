@@ -19,7 +19,7 @@ import "../Styles/SpeakerCard.css";
 function SpeakerCard(props) {
   return (
     <>
-      <div className="SpeakerCard fly-in-right" id="cardl {props.id}">
+      <div className="SpeakerCard rainbow fly-in-right" id="cardl {props.id}">
         <img
           className="SpeakerCard-img"
           alt="SpeakerCard-poster"
