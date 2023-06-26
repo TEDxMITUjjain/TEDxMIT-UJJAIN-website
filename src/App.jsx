@@ -7,9 +7,9 @@ import Team from "./components/Team.jsx";
 function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename="/">
         <Route exact path="/" element={<Home />} />
-        <Route basename="/Team" path="/Team" element={<Team />} />
+        <Route path="/Team" element={<Team />} />
       </Routes>
       <Footer />
     </div>
