@@ -8,8 +8,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4rem;
+  margin: 0rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+@keyframes spin {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.cardgradient
+{
+  width: 31rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: fit-content;
+  /* height: -webkit-fit-content;
+  height: fit-content; */
+  /* background-color: white; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --rotate: 45deg;
+  /* background-image: linear-gradient(var(--rotate),  white, red , black); */
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 200% 200%; */
+  animation: spin 1s  ease infinite;
+}
+
+
+
+.fade-in-image::onscroll { animation: fadeIn 5s; }
 
 .card-img {
   border-radius: 1rem 1rem 0 0;
@@ -76,5 +118,38 @@
     position: relative;
     bottom: 2rem;
   }
+
+  
+@keyframes spin {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.cardgradient
+{
+  width: 21rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 30rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --rotate: 45deg;
+  /* background-image: linear-gradient(var(--rotate),  white, red , black); */
+  /* position: absolute; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: 200% 200%; */
+  animation: spin 1s  ease infinite;
+}
   
 }

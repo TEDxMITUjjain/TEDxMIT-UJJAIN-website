@@ -19,10 +19,10 @@
   position: relative;
 }
 #card1 {
-  top: 2rem;
+  top: 0rem;
 }
 #card2 {
-  top: 6rem;
+  top: 0rem;
 }
 
 @media screen and (max-width: 840px) {
