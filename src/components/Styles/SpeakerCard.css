@@ -24,34 +24,36 @@
 	overflow: hidden;
 	padding: 2rem;
 	
-	&::before {
-		content: '';
-		position: absolute;
-		z-index: -2;
-		left: -50%;
-		top: -50%;
-		width: 200%;
-		height: 200%;
-		background-color: #399953;
-		background-repeat: no-repeat;
-		background-size: 50% 50%, 50% 50%;
-		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-		background-image: linear-gradient(#eb0028, #eb0028), linear-gradient(white, white), linear-gradient(#eb0028, #eb0028), linear-gradient(white, white);
-		animation: rotate 4s linear infinite;
-	}
 	
-	&::after {
-		content: '';
-		position: absolute;
-		z-index: -2;
-		left: 6px;
-		top: 6px;
-		width: calc(100% - 12px);
-		height: calc(100% - 12px);
-		background: white;
-		border-radius: 5px;
-		animation: opacityChange 1s infinite alternate;
-	}
+}
+
+.rainbow::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #399953;
+  background-repeat: no-repeat;
+  background-size: 50% 50%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: linear-gradient(#eb0028, #eb0028), linear-gradient(white, white), linear-gradient(#eb0028, #eb0028), linear-gradient(white, white);
+  animation: rotate 4s linear infinite;
+}
+
+.rainbow::after {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: white;
+  border-radius: 5px;
+  animation: opacityChange 1s infinite alternate;
 }
 
 @keyframes opacityChange {
