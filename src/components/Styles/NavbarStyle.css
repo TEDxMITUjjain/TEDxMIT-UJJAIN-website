@@ -29,7 +29,7 @@
 
 .navbar-menu {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   list-style: none;
   align-items: center;
@@ -47,6 +47,36 @@
   color: red;
   text-decoration: underline;
   transition: all 0.2s ease-in-out;
+}
+
+#registerbutton
+{
+  background-color: #FF3366; /* Set the initial background color */
+  color: black; /* Set the text color */
+  padding: 10px 20px; /* Set the padding for the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add a border radius for a rounded button */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+
+  /* Animation */
+  animation-name: alternateColors;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alternateColors {
+  0% {
+    background-color: red; /* First color */
+  }
+
+  50% {
+    background-color: white; /* Second color */
+  }
+
+  100% {
+    background-color: red; /* Back to the first color */
+  }
 }
 
 @media screen and (max-width: 840px) {
@@ -121,5 +151,11 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding: 0.5rem 0;
+  }
+
+  .nav-links:hover {
+    color: red;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
   }
 }

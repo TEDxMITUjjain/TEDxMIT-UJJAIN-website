@@ -14,8 +14,52 @@
   align-items: center;
 }
 
+.partner-section h2
+{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+#shree
+{
+  width: 21.875rem;
+}
+
+#success
+{
+  width: 13.625rem;
+  /* border: 2px solid red; */
+}
+#samadhan
+{
+  width: 18.75rem;
+}
+
 @media (max-width: 768px) {
   .partner-images {
     flex-wrap: wrap;
   }
+  .partnerimg
+  {
+    padding-bottom: 5rem;
+  }
+  .partner-section h2
+{
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+#shree
+{
+  width: 18.875rem;
+}
+
+#success
+{
+  width: 10.625rem;
+  /* border: 2px solid red; */
+}
+#samadhan
+{
+  width: 15.75rem;
+}
 }

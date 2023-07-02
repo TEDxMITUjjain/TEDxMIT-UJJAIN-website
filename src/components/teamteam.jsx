@@ -18,13 +18,13 @@ function TeamInfo(props) {
         <div className="team-contact-section">
           <a
             className="contactlink"
-            href="https://www.instagram.com/kazu_kun106/"
+            href={props.insta}
           >
             <img className="contactimg" src={Instapic} alt=" " width="28px" />
           </a>
           <a
             className="contactlink"
-            href="https://www.instagram.com/kazu_kun106/"
+            href={props.linkedin}
           >
             <img
               className="contactimg"
@@ -35,7 +35,7 @@ function TeamInfo(props) {
           </a>
           <a
             className="contactlink"
-            href="https://www.instagram.com/kazu_kun106/"
+            href={props.mail}
           >
             <img className="contactimg" src={Mailpic} alt=" " width="28px" />
           </a>

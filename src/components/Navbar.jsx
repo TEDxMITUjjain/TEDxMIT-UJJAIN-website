@@ -71,6 +71,9 @@ const Navbar = () => {
             Contact
           </HashLink>
         </li>
+        <li>
+          <a className="nav-links" id="registerbutton" href="www.google.com">REGISTER</a>
+        </li>
       </ul>
     </nav>
   );

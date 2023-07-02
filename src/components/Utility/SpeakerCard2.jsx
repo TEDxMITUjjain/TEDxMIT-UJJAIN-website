@@ -8,11 +8,11 @@ function SpeakerCard2(props) {
         <div className="SpeakerCard-text">
           <h2 className="SpeakerCard-title">{props.title}</h2>
           <div className="Speacker-details">
-            <h4>TALK ON:-</h4>
+            {/* <h4>TALK ON:-</h4> */}
             <p className="SpeakerCard-description">{props.description}</p>
-            <a className="SpeakerCard-link" href={props.link}>
+            {/* <a className="SpeakerCard-link" href={props.link}>
               hello
-            </a>
+            </a> */}
           </div>
         </div>
         <img

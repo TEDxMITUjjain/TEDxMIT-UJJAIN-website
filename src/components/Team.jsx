@@ -1,7 +1,11 @@
 import React from "react";
-import TeamInfo from "./currentSpeakers";
-import speakers from "./Utility/speakers";
+import TeamInfo from "./teamteam";
+import speakers from "./Utility/teamname";
 import Navbar from "./Navbar";
+import meenal from "../assets/meenal.jpg"
+import organizername from "../components/Utility/organizersname"
+import volunteers from "../components/Utility/volunteers"
+import techteam from "../components/Utility/techteam"
 
 function CreateSpeakerCard(speakers) {
   return (
@@ -12,7 +16,49 @@ function CreateSpeakerCard(speakers) {
       profession={speakers.profession}
     />
   );
+
 }
+function organizers(organizername) {
+  return (
+    <TeamInfo
+      key={organizername.key}
+      imgURL={organizername.imgURL}
+      name={organizername.name}
+      profession={organizername.profession}
+      insta={organizername.insta}
+      linkedin={organizername.linkedin}
+      mail={organizername.mail}
+    />
+  );
+}
+
+function volunteername(volunteers) {
+  return (
+    <TeamInfo
+      key={volunteers.key}
+      imgURL={volunteers.imgURL}
+      name={volunteers.name}
+      profession={volunteers.profession}
+      insta={volunteers.insta}
+      linkedin={volunteers.linkedin}
+      mail={volunteers.mail}
+    />
+  );
+}
+function techname(techteam) {
+  return (
+    <TeamInfo
+      key={techteam.key}
+      imgURL={techteam.imgURL}
+      name={techteam.name}
+      profession={techteam.profession}
+      insta={techteam.insta}
+      linkedin={techteam.linkedin}
+      mail={techteam.mail}
+    />
+  );
+}
+
 
 function Team() {
   return (
@@ -23,43 +69,29 @@ function Team() {
           <span>LICENSE</span> <span className="team-heading-red">HOLDER</span>
         </h1>
         <TeamInfo
-          key={speakers[0].key}
-          imgURL={speakers[0].imgURL}
-          name={speakers[0].name}
-          profession={speakers[0].profession}
+          // key={}
+          imgURL={meenal}
+          name={"Meenal Rathore"}
+          profession={"License holder"}
+          linkedin={""}
+          insta={"https://instagram.com/meenal_rathore22?igshid=MzRlODBiNWFlZA=="}
+          mail={""}
         />
 
         <h1 className="team-heading">
-          <span>CORE</span> <span className="team-heading-red">TEAM</span>
+          <span>ORGANIZING</span> <span className="team-heading-red">COMMITTEE</span>
         </h1>
-        {speakers.map(CreateSpeakerCard)}
-        {speakers.map(CreateSpeakerCard)}
+        {organizername.map(organizers)}
 
         <h1 className="team-heading">
           <span>VOLUNTEERS</span>
         </h1>
-        {speakers.map(CreateSpeakerCard)}
-
-        {/* <h1 className="team-heading">
-          <span>ANCHORING</span>
-        </h1>
-        <TeamInfo
-          key={speakers[3].key}
-          imgURL={speakers[3].imgURL}
-          name={speakers[3].name}
-          profession={speakers[3].profession}
-        />
-        <TeamInfo
-          key={speakers[2].key}
-          imgURL={speakers[2].imgURL}
-          name={speakers[2].name}
-          profession={speakers[2].profession}
-        /> */}
+        {volunteers.map(volunteername)} 
 
         <h1 className="team-heading">
           <span>TECHNICAL</span> <span className="team-heading-red">TEAM</span>
         </h1>
-        {speakers.map(CreateSpeakerCard)}
+        {techteam.map(techname)}
       </div>
     </div>
   );

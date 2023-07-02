@@ -17,8 +17,9 @@ function About() {
         <Card
           id="card2"
           img={tedx_img}
-          title="About TEDx MIT UJJAIN"
+          title="About MIT UJJAIN"
           description="TEDx is a grassroots initiative, created in the spirit of TED's overall mission to research and discover “ideas worth spreading.”"
+          link="http://mitujjain.ac.in/"
         />
       </div>
     </>
