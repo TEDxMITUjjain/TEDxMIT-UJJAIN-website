@@ -1,9 +1,9 @@
 import SpeakerCard from "./Utility/SpeakerCard";
 import "./Styles/Speakers.css";
-import vijendra from"../assets/vijendra1.jpg";
-import shubhi from"../assets/shubhi1.jpg";
+import vijendra from "../assets/vijendra1.jpg";
+import shubhi from "../assets/shubhi1.jpg";
 import sahil from "../assets/sahil1.jpg";
-import mansi from "../assets/mansi biyani 1.png";
+import mansi from "../assets/MANSI BIYANI 1.png";
 import vikrant from "../assets/vikrant.jpg";
 import vikas from "../assets/vikas1.jpg";
 import anand from "../assets/anand.jpg";
