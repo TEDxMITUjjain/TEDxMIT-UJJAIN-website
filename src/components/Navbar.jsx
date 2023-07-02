@@ -72,7 +72,7 @@ const Navbar = () => {
           </HashLink>
         </li>
         <li>
-          <a className="nav-links" id="registerbutton" href="www.google.com">REGISTER</a>
+          <a className="nav-links" id="registerbutton" href="https://docs.google.com/forms/d/e/1FAIpQLSez7A3pYU3_gSeFXxcLzYrTHQP6RARIOmfwFgC9Ibq0HKCsWQ/viewform">REGISTER</a>
         </li>
       </ul>
     </nav>

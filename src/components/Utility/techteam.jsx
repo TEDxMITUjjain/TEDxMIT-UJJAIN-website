@@ -20,7 +20,7 @@ const Techteam = [
         vinit,
       name: "Vinit Gurjar",
       profession: "Developer",
-      linkedin:"http://www.linkedin.com/in/vinit-tilwankar-95054a219",
+      linkedin:"https://www.linkedin.com/in/vinit-gurjar-48280921a/",
       insta:"https://www.instagram.com/vinit_bagdawat/",
       mail:"vinittilwankar2355@gmail.com"
     },
@@ -30,9 +30,9 @@ const Techteam = [
           aayush,
         name: "Aayush Joshi",
         profession: "Developer",
-        linkedin:"https://www.linkedin.com/in/vinit-gurjar-48280921a/",
+        linkedin:"https://www.linkedin.com/in/aayush-joshi01",
         insta:"https://instagram.com/ayush_joshi01?igshid=MzRlODBiNWFlZA==",
-        mail:"vinitgurjar352@gmail.com"
+        mail:"aayushjoshi.dev@gmail.com"
       },
       {
         key: "4",
