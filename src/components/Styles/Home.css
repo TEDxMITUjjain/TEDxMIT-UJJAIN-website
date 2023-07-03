@@ -167,7 +167,7 @@
   }
 
   .backgroundimgblur {
-    filter: blur(5px);
+    filter: blur(0px);
   }
   .spanred {
     color: #eb0028;
