@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__links" id="footer">
         <div className="implinks">
-          <p>Links</p>
+          <p className="links">Links</p>
           <a href="https://www.ted.com">TEDx</a>
           <a href="https://blog.ted.com">TED Blog</a>
         </div>
@@ -22,14 +22,14 @@ const Footer = () => {
               href="mailto:Tedxmitujjain@gmail.com"
               className="footer__icon-link"
             >
-              <FaEnvelope />
+              <FaEnvelope size={40}/>
             </a>
 
-            <a className="footer__icon-link" href="https://instagram.com">
-              <FaInstagram size={20} />
+            <a className="footer__icon-link" href="https://www.instagram.com/tedxmitujjain/">
+              <FaInstagram size={40} />
             </a>
-            <a className="footer__icon-link" href="https://github.com">
-              <FaLinkedin size={20} />
+            <a className="footer__icon-link" href="https://www.linkedin.com/showcase/tedxofficial/">
+              <FaLinkedin size={40} />
             </a>
           </div>
         </div>

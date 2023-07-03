@@ -12,7 +12,7 @@ const volunteers = [
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/sarthakdongare/",
       insta:"https://instagram.com/musiciansarthak?igshid=MzRlODBiNWFlZA==",
-      mail:"sarthakdongare.dev@gmail.com"
+      mail:"mailto:sarthakdongare.dev@gmail.com"
     },
     {
       key: "2",
@@ -22,7 +22,7 @@ const volunteers = [
       profession: "volunteer",
       linkedin:"http://www.linkedin.com/in/mayank-tilwankar-95054a219",
       insta:"https://www.instagram.com/_m_ayan_k_/",
-      mail:"mayanktilwankar2355@gmail.com"
+      mail:"mailto:mayanktilwankar2355@gmail.com"
     },
     {
       key: "3",
@@ -32,7 +32,7 @@ const volunteers = [
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/shivom-munshi-584a19206/",
       insta:"https://www.instagram.com/shivom_munshi/",
-      mail:"shivommunshi.dev@gmail.com"
+      mail:"mailto:shivommunshi.dev@gmail.com"
     },
     {
       key: "4",
@@ -42,7 +42,7 @@ const volunteers = [
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/aaradhy-vijaywat-973952220",
       insta:"https://instagram.com/aaradhy_vijaywat?igshid=MzRlODBiNWFlZA==",
-      mail:"aaradhyvijaywat.dev@gmail.com"
+      mail:"mailto:aaradhyvijaywat.dev@gmail.com"
     },
     {
       key: "5",
@@ -52,7 +52,7 @@ const volunteers = [
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/shivansh-pathak-b56ba2228",
       insta:"https://instagram.com/shiv.ansh_788?igshid=MzNlNGNkZWQ4Mg==",
-      mail:"shivashpathak789@gmail.com"
+      mail:"mailto:shivashpathak789@gmail.com"
     }
   ];
   

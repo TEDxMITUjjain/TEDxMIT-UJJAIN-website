@@ -12,7 +12,7 @@ const Techteam = [
       profession: "Developer",
       linkedin:"https://www.linkedin.com/in/rudraksh-kumrawat-81aa5a1b4/",
       insta:"https://www.instagram.com/kazu_kun106/",
-      mail:"rudrakshkumrawat.dev@gmail.com"
+      mail:"mailto:rudrakshkumrawat.dev@gmail.com"
     },
     {
       key: "2",
@@ -22,7 +22,7 @@ const Techteam = [
       profession: "Developer",
       linkedin:"https://www.linkedin.com/in/vinit-gurjar-48280921a/",
       insta:"https://www.instagram.com/vinit_bagdawat/",
-      mail:"vinittilwankar2355@gmail.com"
+      mail:"mailto:vinittilwankar2355@gmail.com"
     },
     {
         key: "3",
@@ -32,7 +32,7 @@ const Techteam = [
         profession: "Developer",
         linkedin:"https://www.linkedin.com/in/aayush-joshi01",
         insta:"https://instagram.com/ayush_joshi01?igshid=MzRlODBiNWFlZA==",
-        mail:"aayushjoshi.dev@gmail.com"
+        mail:"mailto:aayushjoshi.dev@gmail.com"
       },
       {
         key: "4",
@@ -42,7 +42,7 @@ const Techteam = [
         profession: "",
         linkedin:"https://www.linkedin.com/in/aaradhya-korde",
         insta:"https://www.instagram.com/k_rethun/",
-        mail:"aaradhyakorde.dev@gmail.com"
+        mail:"mailto:aaradhyakorde.dev@gmail.com"
       }
   ];
   

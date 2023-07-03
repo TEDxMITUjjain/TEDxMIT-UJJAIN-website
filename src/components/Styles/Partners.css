@@ -22,17 +22,60 @@
 
 #shree
 {
-  width: 21.875rem;
+  width: 23.875rem;
+}
+
+.foodpartner
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-top: 8.6rem;
 }
 
 #success
 {
-  width: 13.625rem;
+  width: 16rem;
   /* border: 2px solid red; */
+  margin-top: -5rem;
 }
+
+.edupartner3
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-top: 4rem;
+  margin-left: -18rem;
+}
+
 #samadhan
 {
-  width: 18.75rem;
+  width: 16rem;
+  margin-top: -3rem;
+}
+
+.repartner
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+#sanjos
+{
+  width: 16rem;
+}
+
+.edupartner2
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  /* margin-top: 2rem; */
+  margin-top: 3rem;
+  margin-left: -18rem;
 }
 
 @media (max-width: 768px) {

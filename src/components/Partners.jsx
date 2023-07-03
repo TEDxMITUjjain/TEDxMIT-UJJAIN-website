@@ -17,25 +17,35 @@ function Partners() {
               className="partnerimg"
               src={shreeganga}
               alt="Partner 1"
-            /></a>
+            />
+            <p className="foodpartner"><b>Food Partner</b></p>
+            </a>
+            <a href="">
             <img
               id="success"
               className="partnerimg"
               src={successacademy}
               alt="Partner 2"
             />
-            <img
-              id="samadhan"
-              className="partnerimg"
-              src={samadhan}
-              alt="Partner 3"
-            />
+            {/* <p className="edupartner3"><b>Education Partner</b></p> */}
+            </a>
             <a href="https://instagram.com/sanjosinstitute_ujjain?igshid=YmM0MjE2YWMzOA=="><img
               id="sanjos"
               className="partnerimg"
               src={sanjos}
               alt="Partner 4"
-            /></a>
+            />
+            <p className="edupartner2"><b>Education Partners</b></p>
+            </a>
+            <a href=""><img
+              id="samadhan"
+              className="partnerimg"
+              src={samadhan}
+              alt="Partner 3"
+            />
+            <p className="repartner"><b>Real-Estate Partner</b></p>
+            </a>
+            
           </div>
         </div>
       </div>

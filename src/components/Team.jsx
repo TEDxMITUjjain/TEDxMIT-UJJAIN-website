@@ -75,7 +75,7 @@ function Team() {
           profession={"License holder"}
           linkedin={""}
           insta={"https://instagram.com/meenal_rathore22?igshid=MzRlODBiNWFlZA=="}
-          mail={""}
+          mail={"mailto:meenalrathore08@gmail.com"}
         />
 
         <h1 className="team-heading">
