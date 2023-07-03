@@ -6,6 +6,7 @@ import About from "./About.jsx";
 import Partners from "./Partners.jsx";
 import Speakers from "./Speakers.jsx";
 import Countdown from "./Utility/Countdown.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       <About />
       <Speakers />
       <Partners />
+      <Analytics />
     </div>
   );
 }
