@@ -12,12 +12,12 @@ function Partners() {
           <h2>Our Partners</h2>
           <div className="partner-images">
             {/* Add partner company images here */}
-            <img
+            <a href="https://shreeganga.in/"><img
               id="shree"
               className="partnerimg"
               src={shreeganga}
               alt="Partner 1"
-            />
+            /></a>
             <img
               id="success"
               className="partnerimg"
@@ -30,12 +30,12 @@ function Partners() {
               src={samadhan}
               alt="Partner 3"
             />
-            <img
+            <a href="https://instagram.com/sanjosinstitute_ujjain?igshid=YmM0MjE2YWMzOA=="><img
               id="sanjos"
               className="partnerimg"
               src={sanjos}
               alt="Partner 4"
-            />
+            /></a>
           </div>
         </div>
       </div>
