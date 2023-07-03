@@ -105,4 +105,58 @@
 {
   width: 15.75rem;
 }
+
+
+#shree
+{
+  /* width: 23.875rem; */
+}
+
+.foodpartner
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  display: none;
+}
+
+#success
+{
+  /* width: 16rem; */
+  /* border: 2px solid red; */
+  margin-top: 0rem;
+}
+
+.edupartner3
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  display: none;
+}
+
+#samadhan
+{
+}
+
+.repartner
+{
+  text-decoration: none;
+  color: black;
+  display: none;
+}
+
+#sanjos
+{
+  /* width: 16rem; */
+}
+
+.edupartner2
+{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  display: none;
+}
+
 }
