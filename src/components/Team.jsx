@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import TeamInfo from "./teamteam";
 import speakers from "./Utility/teamname";
 import Navbar from "./Navbar";
@@ -61,6 +62,14 @@ function techname(techteam) {
 
 
 function Team() {
+  
+      // Trying to solve the scrolling problem
+
+      useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page when the component mounts
+      }, []);
+
+
   return (
     <div className="all" id="Team">
       <Navbar />
