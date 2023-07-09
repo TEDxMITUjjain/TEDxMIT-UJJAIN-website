@@ -65,6 +65,22 @@
   animation-iteration-count: infinite;
 }
 
+#registerbutton2
+{
+  background-color: #FF3366; /* Set the initial background color */
+  color: black; /* Set the text color */
+  padding: 10px 20px; /* Set the padding for the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add a border radius for a rounded button */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+
+  /* Animation */
+  animation-name: alternateColors;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+
 @keyframes alternateColors {
   0% {
     background-color: red; /* First color */

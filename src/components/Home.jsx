@@ -20,8 +20,9 @@ function Home() {
           <span className="spanred">TEDx</span> MIT Ujjain
         </h1>
         <div className="countdiv">
-          <Countdown /> {/* Corrected: Render the Countdown component */}
+          <Countdown />
         </div>
+        <a className="nav-links mobileregister" id="registerbutton2" href="https://docs.google.com/forms/d/e/1FAIpQLSez7A3pYU3_gSeFXxcLzYrTHQP6RARIOmfwFgC9Ibq0HKCsWQ/viewform"><b>REGISTER</b></a>
       </div>
       <About />
       <Speakers />
