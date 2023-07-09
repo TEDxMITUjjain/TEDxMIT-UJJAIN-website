@@ -174,4 +174,10 @@
     text-decoration: underline;
     transition: all 0.2s ease-in-out;
   }
+
+  #registerbutton2
+  {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+  }
 }
