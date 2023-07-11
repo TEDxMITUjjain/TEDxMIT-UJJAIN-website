@@ -39,7 +39,7 @@ const Techteam = [
         imgURL:
           aaradhya,
         name: "Aaradhya Korde",
-        profession: "",
+        profession: "Developer",
         linkedin:"https://www.linkedin.com/in/aaradhya-korde",
         insta:"https://www.instagram.com/k_rethun/",
         mail:"mailto:aaradhyakorde.dev@gmail.com"
