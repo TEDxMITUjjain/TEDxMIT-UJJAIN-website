@@ -1,6 +1,6 @@
 import SpeakerCard from "./Utility/SpeakerCard";
 import "./Styles/Speakers.css";
-import vijendra from "../assets/vijendra1.jpg";
+import vijender from "../assets/vijendra1.jpg";
 import shubhi from "../assets/shubhi1.jpg";
 import sahil from "../assets/sahil1.jpg";
 import mansi from "../assets/MANSI BIYANI 1.png";
@@ -23,9 +23,9 @@ function Speakers() {
           />
           <SpeakerCard2
             id="card1"
-            img={vijendra}
+            img={vijender}
             title="Dr. Vijender Singh Chauhan"
-            description="Dr. Vijendra Singh Chauhan a renowned DU professor, Vijendra Singh Chauhan, also known as Vijendra Masijeevi, conducts mock IAS interviews on YouTube, challenging conventional wisdom and inspiring critical thinking."
+            description="Dr. Vijender Singh Chauhan a renowned DU professor, vijender Singh Chauhan, also known as vijender Masijeevi, conducts mock IAS interviews on YouTube, challenging conventional wisdom and inspiring critical thinking."
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard
