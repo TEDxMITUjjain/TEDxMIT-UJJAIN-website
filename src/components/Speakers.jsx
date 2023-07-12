@@ -7,6 +7,9 @@ import mansi from "../assets/MANSI BIYANI 1.png";
 import vikrant from "../assets/vikrant.jpg";
 import vikas from "../assets/vikas1.jpg";
 import anand from "../assets/anand.jpg";
+import jajoo from "../assets/jajoo.jpg";
+import rashmi from "../assets/rashmi.jpg";
+import dhruvv from "../assets/dhruvv.jpg";
 import SpeakerCard2 from "./Utility/SpeakerCard2";
 function Speakers() {
   return (
@@ -61,6 +64,27 @@ function Speakers() {
             img={shubhi}
             title="Shubhi Bhandari"
             description="Shubhi Bhandari, a lawyer, social entrepreneur, and author, is passionate about leveraging technology for social impact and women empowerment. As the President of Cyber Security Council (CSC), she works to ensure women's security and privacy in the digital ecosystem."
+            link="https://twitter.com/narendramodi"
+          />
+          <SpeakerCard2
+            id="card1"
+            img={jajoo}
+            title="Vishnu Jajoo"
+            description='Mr. Vishnu Jajoo is a professional par excellence with over 25 years of experience in strategic planning, business management, new product identification, and technology adaptation, inspiring young leaders and entrepreneurs with his global business acumen and expertise in polymer technology and business finance.'
+            link="https://twitter.com/narendramodi"
+          />
+          <SpeakerCard
+            id="card2"
+            img={rashmi}
+            title="Dr. Rashmi Dubey"
+            description="Dr. Rashmi Dubey Kackar: Renowned communication coach, director, and owner of Inspirational Academy for Excellence, empowering individuals in communication and personal growth through her expertise in effective communication, confidence-building, and expressing ideas."
+            link="https://twitter.com/narendramodi"
+          />
+          <SpeakerCard2
+            id="card1"
+            img={dhruvv}
+            title="Dhruvv Lohia"
+            description='Dhruvv Lohia is a serial entrepreneur, author, and visionary revolutionizing entrepreneurship through startups, incubation centers, co-working spaces, and franchise ventures.'
             link="https://twitter.com/narendramodi"
           />
         </div>
