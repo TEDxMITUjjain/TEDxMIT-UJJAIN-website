@@ -40,7 +40,7 @@
   background-size: 50% 50%, 50% 50%;
   background-position: 0 0, 100% 0, 100% 100%, 0 100%;
   background-image: linear-gradient(#eb0028, #eb0028), linear-gradient(white, white), linear-gradient(#eb0028, #eb0028), linear-gradient(white, white);
-  animation: rotate 4s linear infinite;
+  animation: rotate 8s linear infinite;
 }
 
 .rainbow::after {
