@@ -16,7 +16,7 @@ This site is already hosted, but if you want to locally run the project, then fo
 > 1. After cloning check Your Node.js version via this command `node -v` it should be higher then 16.0.0.
 > 1. At the end Run this command `npm run dev` This creates an localhost for you and Remember on thing Vite.js has a inbuild Hot Module Replacement Functionality so don't have to refresh the site.
 >
-##Collaborators:
+## Collaborators:
 ### Rudraksh Kumrawat
 ### Vinit Gurjar
 ### Aaradhya Korde
