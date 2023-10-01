@@ -17,7 +17,7 @@ This site is already hosted, but if you want to locally run the project, then fo
 > 1. At the end Run this command `npm run dev` This creates an localhost for you and Remember on thing Vite.js has a inbuild Hot Module Replacement Functionality so don't have to refresh the site.
 >
 ## Collaborators:
-### Rudraksh Kumrawat [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-kumrawat-81aa5a1b4)
-### Vinit Gurjar [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinit-gurjar-48280921a/)
-### Aaradhya Korde [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaradhya-korde/)
-### Aayush Joshi [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aayush-joshi01)
+### Rudraksh Kumrawat [![Linkedin](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-kumrawat-81aa5a1b4)
+### Vinit Gurjar [![Linkedin](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinit-gurjar-48280921a/)
+### Aaradhya Korde [![Linkedin](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaradhya-korde/)
+### Aayush Joshi [![Linkedin](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aayush-joshi01)
