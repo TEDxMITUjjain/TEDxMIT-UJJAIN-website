@@ -52,9 +52,23 @@ While the website is already hosted, if you want to run the project locally for 
 
 The development of this website was made possible by the collaborative efforts of:
 
-- Rudraksh Kumrawat [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudraksh-kumrawat-81aa5a1b4)
-- Vinit Gurjar [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinit-gurjar-48280921a/)
-- Aaradhya Korde [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aaradhya-korde/)
-- Aayush Joshi [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aayush-joshi01)
+- Rudraksh Kumrawat 
+  - [![GitHub: rudrakshk-101](https://img.shields.io/badge/GitHub-rudrakshk--101-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/rudrakshk-101)
+  - [![LinkedIn: Rudraksh Kumrawat](https://img.shields.io/badge/LinkedIn-Rudraksh%20Kumrawat-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/rudraksh-kumrawat-81aa5a1b4)
+
+- Vinit Gurjar 
+  - [![GitHub: VinitGurjar](https://img.shields.io/badge/GitHub-VinitGurjar-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/VinitGurjar)
+  - [![LinkedIn: Vinit Gurjar](https://img.shields.io/badge/LinkedIn-Vinit%20Gurjar-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/vinit-gurjar-48280921a/)
+
+- Aaradhya Korde 
+  - [![GitHub: AaradhyaKorde](https://img.shields.io/badge/GitHub-AaradhyaKorde-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/AaradhyaKorde)
+  - [![LinkedIn: Aaradhya Korde](https://img.shields.io/badge/LinkedIn-Aaradhya%20Korde-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/aaradhya-korde/)
+
+- Aayush Joshi 
+  - [![GitHub: Aayush-Joshi-01](https://img.shields.io/badge/GitHub-Aayush--Joshi--01-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/Aayush-Joshi-01)
+  - [![LinkedIn: Aayush Joshi](https://img.shields.io/badge/LinkedIn-Aayush%20Joshi-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://linkedin.com/in/aayush-joshi01)
+
 
 Thank you for visiting the TEDxMITUjjain website repository!
+
+
