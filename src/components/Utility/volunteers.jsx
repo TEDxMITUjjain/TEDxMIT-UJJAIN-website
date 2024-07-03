@@ -1,58 +1,80 @@
-import sarthak from "../../assets/sarthak.png";
-import mayank from "../../assets/mayank.jpg";
-import shivom from "../../assets/shivom.jpg";
-import aaradhya from "../../assets/aaradhyavijaywat.jpg";
-import shivansh from "../../assets/shivansh.jpg";
+import akshita from "../../assets/akshita3.png";
+import jayesh from "../../assets/jayesh3.jpg";
+import lakshita from "../../assets/lakshita3.png";
+import aradhya from "../../assets/aradhya3.jpg";
+import yash from "../../assets/yash3.jpg";
+import viveksi from "../../assets/viveksi3.png";
+import shaurya from "../../assets/shaurya.jpg";
+
 const volunteers = [
     {
       key: "1",
       imgURL:
-        sarthak,
-      name: "Sarthak Dongare",
+        akshita,
+      name: "Akshita Vashistha",
       profession: "volunteer",
-      linkedin:"https://www.linkedin.com/in/sarthakdongare/",
-      insta:"https://instagram.com/musiciansarthak?igshid=MzRlODBiNWFlZA==",
-      mail:"mailto:sarthakdongare.dev@gmail.com"
+      insta:"https://instagram.com/_.akshita.thv._",
     },
     {
       key: "2",
       imgURL:
-        mayank,
-      name: "Mayank Tilwankar",
+        jayesh,
+      name: "Jayesh Sharma",
       profession: "volunteer",
-      linkedin:"http://www.linkedin.com/in/mayank-tilwankar-95054a219",
-      insta:"https://www.instagram.com/_m_ayan_k_/",
-      mail:"mailto:mayanktilwankar2355@gmail.com"
+      linkedin:"https://www.linkedin.com/in/jayesh-sharma-0821a6306",
+      insta:"https://instagram.com/jayeshsharma435",
+      mail:"mailto:jayeshsharma04035@gmail.com"
     },
     {
       key: "3",
       imgURL:
-        shivom,
-      name: "Shivom Munshi",
+        lakshita,
+      name: "Lakshita Sikarwar",
       profession: "volunteer",
-      linkedin:"https://www.linkedin.com/in/shivom-munshi-584a19206/",
-      insta:"https://www.instagram.com/shivom_munshi/",
-      mail:"mailto:shivommunshi.dev@gmail.com"
+      linkedin:"http://www.linkedin.com/in/lakshitasikarwar/",
+      insta:"https://www.instagram.com/__.lakshita.__24/",
+      mail:"mailto:lakshitasikarwar.dev@gmail.com"
     },
     {
       key: "4",
       imgURL:
-        aaradhya,
+        aradhya,
       name: "Aaradhya Vijaywat",
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/aaradhy-vijaywat-973952220",
-      insta:"https://instagram.com/aaradhy_vijaywat?igshid=MzRlODBiNWFlZA==",
+      insta:"https://instagram.com/Aaradhya_Vijaywat",
       mail:"mailto:aaradhyvijaywat.dev@gmail.com"
     },
     {
       key: "5",
       imgURL:
-        shivansh,
-      name: "Shivansh Pathak",
+        yash,
+      name: "Yash Verma",
       profession: "volunteer",
-      linkedin:"https://www.linkedin.com/in/shivansh-pathak-b56ba2228",
-      insta:"https://instagram.com/shiv.ansh_788?igshid=MzNlNGNkZWQ4Mg==",
-      mail:"mailto:shivashpathak789@gmail.com"
+      linkedin:"https://www.linkedin.com/in/yash-verma-362300277/",
+      insta:"https://www.instagram.com/@_Y_A_S_H_VERMA_/",
+      mail:"mailto:verma01yash@gmail.com"
+    },
+
+    {
+      key: "6",
+      imgURL:
+        viveksi,
+      name: "Viveksi Takasali",
+      profession: "volunteer",
+      linkedin:"https://www.linkedin.com/in/viveksi-taksali-4ab732259",
+      insta:"https://instagram.com/vini_taksali_27",
+      mail:"mailto:vinitaksali@gmail.com"
+    },
+    {
+      key: "7",
+      imgURL:
+        shaurya,
+      name: "Shauryaveer Vyas",
+      profession: "volunteer",
+      linkedin:"https://www.linkedin.com/in/shaurya-veer-vyas-b5b367292",
+      insta:"https://instagram.com/_shaurya_svv_",
+      mail:"mailto:shauryaveerv@gmail.com"
     }
   ];
   

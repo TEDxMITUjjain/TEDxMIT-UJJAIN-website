@@ -1,7 +1,7 @@
-import shreeganga from "../assets/shree.jpg";
-import successacademy from "../assets/success.png";
+import chaikaapi from "../assets/chaikaapi1.png";
+import pitchme from "../assets/pitchme1.png";
 import samadhan from "../assets/Samadhan logo.png";
-import sanjos from "../assets/sanjosh.png";
+import jbbh from "../assets/jbbh1.png";
 import "./Styles/Partners.css";
 
 function Partners() {
@@ -12,39 +12,32 @@ function Partners() {
           <h2>Our Partners</h2>
           <div className="partner-images">
             {/* Add partner company images here */}
-            <a href="https://shreeganga.in/"><img
+            <a href=""><img
               id="shree"
               className="partnerimg"
-              src={shreeganga}
+              src={pitchme}
               alt="Partner 1"
             />
-            <p className="foodpartner"><b>Food Partner</b></p>
+            <p className="foodpartner"><b></b></p>
             </a>
             <a href="">
             <img
               id="success"
               className="partnerimg"
-              src={successacademy}
+              src={chaikaapi}
               alt="Partner 2"
             />
             {/* <p className="edupartner3"><b>Education Partner</b></p> */}
             </a>
-            <a href="https://instagram.com/sanjosinstitute_ujjain?igshid=YmM0MjE2YWMzOA=="><img
+            <a href=""><img
               id="sanjos"
               className="partnerimg"
-              src={sanjos}
+              src={jbbh}
               alt="Partner 4"
             />
-            <p className="edupartner2"><b>Education Partners</b></p>
+            <p className="edupartner2"><b></b></p>
             </a>
-            <a href=""><img
-              id="samadhan"
-              className="partnerimg"
-              src={samadhan}
-              alt="Partner 3"
-            />
-            <p className="repartner"><b>Real-Estate Partner</b></p>
-            </a>
+           
             
           </div>
         </div>

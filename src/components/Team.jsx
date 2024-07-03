@@ -7,6 +7,7 @@ import meenal from "../assets/meenal.jpg"
 import organizername from "../components/Utility/organizersname"
 import volunteers from "../components/Utility/volunteers"
 import techteam from "../components/Utility/techteam"
+import anchor from "../components/Utility/anchor.jsx"
 
 function CreateSpeakerCard(speakers) {
   return (
@@ -59,6 +60,19 @@ function techname(techteam) {
     />
   );
 }
+function anchor2(anchor) {
+  return (
+    <TeamInfo
+      key={anchor.key}
+      imgURL={anchor.imgURL}
+      name={anchor.name}
+      profession={anchor.profession}
+      insta={anchor.insta}
+      linkedin={anchor.linkedin}
+      mail={anchor.mail}
+    />
+  );
+}
 
 
 function Team() {
@@ -101,6 +115,11 @@ function Team() {
           <span>TECHNICAL</span> <span className="team-heading-red">TEAM</span>
         </h1>
         {techteam.map(techname)}
+
+        <h1 className="team-heading">
+          <span>ANCHORS</span> <span className="team-heading-red">TEAM</span>
+        </h1>
+        {anchor.map(anchor2)}
       </div>
     </div>
   );

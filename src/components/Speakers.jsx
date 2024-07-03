@@ -1,13 +1,13 @@
 import SpeakerCard from "./Utility/SpeakerCard";
 import "./Styles/Speakers.css";
-import vijender from "../assets/vijendra1.jpg";
-import shubhi from "../assets/shubhi1.jpg";
-import sahil from "../assets/sahil1.jpg";
-import mansi from "../assets/MANSI BIYANI 1.png";
-import vikrant from "../assets/vikrant.jpg";
-import vikas from "../assets/vikas1.jpg";
-import anand from "../assets/anand.jpg";
-import jajoo from "../assets/jajoo.jpg";
+import rangini from "../assets/Dr.Ragini Makkad.jpg";
+import agnes from "../assets/Agnes Mann.jpg";
+import nikhar from "../assets/Nikhar Juneja.jpg";
+import kiran from "../assets/Kiran Phate.jpg";
+import sanjay from "../assets/Dr.Sanjay Arora.jpg";
+import sabha from "../assets/Sabah Riaz.jpg";
+import prem from "../assets/Dr.Prem Chhabra.jpg";
+import nidhi from "../assets/Nidhi Singh.jpg";
 import rashmi from "../assets/rashmi.jpg";
 import dhruvv from "../assets/dhruvv.jpg";
 import SpeakerCard2 from "./Utility/SpeakerCard2";
@@ -19,74 +19,62 @@ function Speakers() {
         <div className="SpeakerCardd">
           <SpeakerCard
             id="card1"
-            img={vikrant}
-            title="Dr. Vikrant Singh Tomar"
-            description="Dr. Vikrant Singh Tomar, an internationally acknowledged scholar and management consultant, specializes in ancient spiritual wisdom and modern living. He will provide insights into life management and ancient Vedic wisdom."
+            img={sanjay}
+            title="Dr. Sanjay Arora"
+            description="Dr. Sanjay Arora, a visionary entrepreneur, has revolutionized the business landscape with his innovative approaches and relentless pursuit of excellence."
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard2
             id="card1"
-            img={vijender}
-            title="Dr. Vijender Singh Chauhan"
-            description="Dr. Vijender Singh Chauhan a renowned DU professor, vijender Singh Chauhan, also known as vijender Masijeevi, conducts mock IAS interviews on YouTube, challenging conventional wisdom and inspiring critical thinking."
+            img={rangini}
+            title="Dr. Ragini Makkad"
+            description="Dr. Ragini Makkad, a distinguished Kathak Guru, has mesmerized audiences worldwide with her profound knowledge and graceful performances in the classical dance form of Kathak."
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard
             id="card2"
-            img={anand}
-            title="Anand Munshi"
-            description="Anand Munshi, a dynamic motivational speaker and performance coach, ignites positive energy on national and international platforms. His engaging keynotes and workshops empower youth and professionals alike to excel in their personal and professional lives."
+            img={prem}
+            title="Dr. Prem Chhabra"
+            description="Dr. Prem Chhabra, a dedicated educator, has significantly impacted the academic community with his innovative teaching methods and unwavering commitment to student success."
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard2
             id="card1"
-            img={vikas}
-            title="Vikas Choudhary"
-            description=" Vikas Choudhary, Strategic Solutions and Cyber Leader for TCS Japan, brings over 17 years of experience in IT, IT Consulting, and Cyber Security. He will share his expertise and global insights on navigating the ever-evolving landscape of cybersecurity."
+            img={sabha}
+            title="Sabah Riaz"
+            description="Sabah Riaz, a renowned nutritionist, has transformed countless lives through her expert guidance on healthy eating and sustainable lifestyle choices."
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard
             id="card2"
-            img={mansi}
-            title="Mansi Biyani"
-            description="Mansi Biyani, Founder & CEO of MBDH Wellness, India's 1st consumer-first Ayurveda startup, will share her experiences as an architect turned entrepreneur, highlighting the fusion of ancient wisdom and modern living."
+            img={kiran}
+            title="Kiran Phate"
+            description="Kiran Phate, an accomplished IT Infrastructure Professional, has been instrumental in shaping robust and innovative technology solutions across various industries.            "
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard2
             id="card1"
-            img={sahil}
-            title="Sahil Juneja"
-            description='Sahil Juneja, a serial entrepreneur behind the successful venture "Chai Kaapi," will share his journey of starting from scratch and building a portfolio of multiple online and offline ventures, emphasizing the power of resilience and determination.'
+            img={nikhar}
+            title="Nikhar Juneja"
+            description='Nikhar Juneja, a talented musician, captivates audiences with his soulful melodies and exceptional musical prowess.'
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard
             id="card2"
-            img={shubhi}
-            title="Shubhi Bhandari"
-            description="Shubhi Bhandari, a lawyer, social entrepreneur, and author, is passionate about leveraging technology for social impact and women empowerment. As the President of Cyber Security Council (CSC), she works to ensure women's security and privacy in the digital ecosystem."
+            img={agnes}
+            title="Agnes Mann"
+            description="Agnes Mann, a dynamic content creator, has garnered a loyal following with her engaging and insightful content across various digital platforms"
             link="https://twitter.com/narendramodi"
           />
           <SpeakerCard2
             id="card1"
-            img={jajoo}
-            title="Vishnu Jajoo"
-            description='Mr. Vishnu Jajoo is a professional par excellence with over 25 years of experience in strategic planning, business management, new product identification, and technology adaptation, inspiring young leaders and entrepreneurs with his global business acumen and expertise in polymer technology and business finance.'
+            img={nidhi}
+            title="Nidhi Singh"
+            description='Nidhi Singh, a passionate educator, has made a lasting impact on her students through her innovative teaching techniques and dedication to education.            '
             link="https://twitter.com/narendramodi"
           />
-          <SpeakerCard
-            id="card2"
-            img={rashmi}
-            title="Dr. Rashmi Dubey"
-            description="Dr. Rashmi Dubey Kackar: Renowned communication coach, director, and owner of Inspirational Academy for Excellence, empowering individuals in communication and personal growth through her expertise in effective communication, confidence-building, and expressing ideas."
-            link="https://twitter.com/narendramodi"
-          />
-          <SpeakerCard2
-            id="card1"
-            img={dhruvv}
-            title="Dhruvv Lohia"
-            description='Dhruvv Lohia is a serial entrepreneur, author, and visionary revolutionizing entrepreneurship through startups, incubation centers, co-working spaces, and franchise ventures.'
-            link="https://twitter.com/narendramodi"
-          />
+          
+          
         </div>
       </div>
     </>

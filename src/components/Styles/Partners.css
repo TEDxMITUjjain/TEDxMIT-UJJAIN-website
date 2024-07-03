@@ -1,11 +1,11 @@
 .partner-page {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   padding: 5rem;
 }
 
 .partner-section {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .partner-images {
@@ -23,21 +23,22 @@
 #shree
 {
   width: 23.875rem;
+  margin-top:5rem;
 }
 
 .foodpartner
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   margin-top: 8.6rem;
 }
 
 #success
 {
-  width: 16rem;
+  width: 26rem;
   /* border: 2px solid red; */
-  margin-top: -5rem;
+  margin-top: -7rem;
 }
 
 .edupartner3
@@ -51,27 +52,27 @@
 
 #samadhan
 {
-  width: 16rem;
+  width: 6rem;
   margin-top: -3rem;
 }
 
 .repartner
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   margin-top: 6rem;
 }
 
 #sanjos
 {
-  width: 16rem;
+  width: 20rem;
 }
 
 .edupartner2
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   /* margin-top: 2rem; */
   margin-top: 3rem;
@@ -115,7 +116,7 @@
 .foodpartner
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   display: none;
 }
@@ -130,7 +131,7 @@
 .edupartner3
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   display: none;
 }
@@ -142,7 +143,7 @@
 .repartner
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   display: none;
 }
 
@@ -154,7 +155,7 @@
 .edupartner2
 {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-size: 2rem;
   display: none;
 }
