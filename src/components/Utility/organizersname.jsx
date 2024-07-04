@@ -44,7 +44,7 @@ const organizers = [
       imgURL:
       shivansh2,
       name: "Shivansh Pathak",
-    profession: "volunteer",
+    profession: "Organizer",
     linkedin:"https://www.linkedin.com/in/shivansh-pathak-b56ba2228",
     insta:"https://instagram.com/shiv.ansh_788",
     mail:"mailto:shivashpathak789@gmail.com"
