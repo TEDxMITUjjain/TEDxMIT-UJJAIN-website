@@ -60,7 +60,7 @@ const volunteers = [
       key: "6",
       imgURL:
         viveksi,
-      name: "Viveksi Takasali",
+      name: "Viveksi Taksali",
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/viveksi-taksali-4ab732259",
       insta:"https://instagram.com/vini_taksali_27",
