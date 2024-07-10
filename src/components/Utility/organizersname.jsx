@@ -2,8 +2,8 @@ import anirudh1 from "../../assets/anirudh3.jpg";
 import jatin from "../../assets/jatin.jpg";
 import shivansh2 from "../../assets/shivansh3.jpg";
 import avichal1 from "../../assets/avichal3.jpg";
-import moumita from "../../assets/moumita.jpg";
-import shristi from "../../assets/shristi.jpg";
+import akshita from "../../assets/akshita3.png";
+import aradhya from "../../assets/aradhya3.jpg";
 
 const organizers = [
     {
@@ -50,8 +50,24 @@ const organizers = [
     mail:"mailto:shivashpathak789@gmail.com"
       
     },
-    
+    {
+      key: "1",
+      imgURL:
+        akshita,
+      name: "Akshita Vashistha",
+      profession: "Organizer",
+      insta:"https://instagram.com/_.akshita.thv._",
+    },
+    {
+      key: "4",
+      imgURL:
+        aradhya,
+      name: "Aaradhya Vijaywat",
+      profession: "Organizer",
+      linkedin:"https://www.linkedin.com/in/aaradhy-vijaywat-973952220",
+      insta:"https://instagram.com/Aaradhya_Vijaywat",
+      mail:"mailto:aaradhyvijaywat.dev@gmail.com"
+    },
   ];
   
   export default organizers;
-  

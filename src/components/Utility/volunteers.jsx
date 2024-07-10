@@ -1,20 +1,13 @@
-import akshita from "../../assets/akshita3.png";
 import jayesh from "../../assets/jayesh3.jpg";
 import lakshita from "../../assets/lakshita3.png";
-import aradhya from "../../assets/aradhya3.jpg";
 import yash from "../../assets/yash3.jpg";
 import viveksi from "../../assets/viveksi3.png";
 import shaurya from "../../assets/shaurya.jpg";
 
 const volunteers = [
-    {
-      key: "1",
-      imgURL:
-        akshita,
-      name: "Akshita Vashistha",
-      profession: "volunteer",
-      insta:"https://instagram.com/_.akshita.thv._",
-    },
+   
+    
+    
     {
       key: "2",
       imgURL:
@@ -32,19 +25,10 @@ const volunteers = [
       name: "Lakshita Sikarwar",
       profession: "volunteer",
       linkedin:"http://www.linkedin.com/in/lakshitasikarwar/",
-      insta:"https://www.instagram.com/__.lakshita.__24/",
+      insta:"https://www.instagram.com/.lakshita.24/",
       mail:"mailto:lakshitasikarwar.dev@gmail.com"
     },
-    {
-      key: "4",
-      imgURL:
-        aradhya,
-      name: "Aaradhya Vijaywat",
-      profession: "volunteer",
-      linkedin:"https://www.linkedin.com/in/aaradhy-vijaywat-973952220",
-      insta:"https://instagram.com/Aaradhya_Vijaywat",
-      mail:"mailto:aaradhyvijaywat.dev@gmail.com"
-    },
+    
     {
       key: "5",
       imgURL:
@@ -60,7 +44,7 @@ const volunteers = [
       key: "6",
       imgURL:
         viveksi,
-      name: "Viveksi Taksali",
+      name: "Viveksi Takasali",
       profession: "volunteer",
       linkedin:"https://www.linkedin.com/in/viveksi-taksali-4ab732259",
       insta:"https://instagram.com/vini_taksali_27",
@@ -79,4 +63,3 @@ const volunteers = [
   ];
   
   export default volunteers;
-   
