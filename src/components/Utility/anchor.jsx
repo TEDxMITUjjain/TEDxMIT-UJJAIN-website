@@ -7,6 +7,7 @@ const anchor = [
       imgURL:
         vishakha,
       name: "Vishakha Sehgal",
+      profession: "Anchor",
       linkedin:"https://www.linkedin.com/in/vishakha-sehgal-0812ab234/",
       insta:"https://www.instagram.com/@_vishii__/",
       mail:"mailto:vishakhaseghal12211@gmail.com"
@@ -16,6 +17,7 @@ const anchor = [
       imgURL:
         moumita,
       name: "Moumita Nandi",
+      profession: "Anchor",
       linkedin:"https://www.linkedin.com/in/moumita-nandi-5653b020a",
       insta:"https://www.instagram.com/nmoumita10",
       mail:"mailto:jatinsahijwani2151@gmail.com"
