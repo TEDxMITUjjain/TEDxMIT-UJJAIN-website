@@ -51,6 +51,13 @@ While the website is already hosted, if you want to run the project locally for 
 ## Collaborators
 
 The development of this website was made possible by the collaborative efforts of:
+- Jatin Sahijwani 
+  - [![GitHub: jatinsahijwani](https://img.shields.io/badge/GitHub-jatinsahijwani-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/jatinsahijwani)
+  - [![LinkedIn: jatinsahijwani](https://img.shields.io/badge/LinkedIn-Jatin%20Sahijwani-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/jatinsahijwani/)
+ 
+- Lakshita Sikarwar
+  - [![GitHub: LakshitaSikarwardev](https://img.shields.io/badge/GitHub-LakshitaSikarwardev-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/LakshitaSikarwardev)
+  - [![LinkedIn: Lakshita Sikarwar](https://img.shields.io/badge/LinkedIn-Lakshita%20Sikarwar-%23121011.svg?logo=linkedin&logoColor=white&labelColor=blue)](https://www.linkedin.com/in/lakshitasikarwar/)
 
 - Rudraksh Kumrawat 
   - [![GitHub: rudrakshk-101](https://img.shields.io/badge/GitHub-rudrakshk--101-%23121011.svg?logo=github&logoColor=white&labelColor=black)](https://github.com/rudrakshk-101)
