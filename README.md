@@ -24,9 +24,9 @@ The website is organized into two major pages:
 
 ### Main Page
 
-- **Home**: The landing page that provides an overview of the TEDxMITUjjain event.
+- **Home**: The landing page provides an overview of the TEDxMITUjjain event.
 - **About**: Information about the event, its mission, and its organizers.
-- **Speakers**: Details about the featured speakers who will be presenting at the event.
+- **Speakers**: Details about the featured speakers presenting at the event.
 - **Partners**: Information about event sponsors and partners.
 - **Contact**: Ways to get in touch with the event organizers.
 
@@ -46,7 +46,7 @@ While the website is already hosted, if you want to run the project locally for 
 1. Clone this repository to your local machine.
 2. Ensure you have Node.js installed (version 16.0.0 or higher).
 3. Open your terminal, navigate to the project directory, and run `npm install` to install project dependencies.
-4. Run `npm run dev` to start a local development server. Vite.js provides hot module replacement, so you don't need to manually refresh the site during development.
+4. Run `npm run dev` to start a local development server. Vite.js provides hot module replacement, so you don't need to refresh the site during development manually.
 
 ## Collaborators
 
@@ -77,5 +77,3 @@ The development of this website was made possible by the collaborative efforts o
 
 
 Thank you for visiting the TEDxMITUjjain website repository!
-
-
